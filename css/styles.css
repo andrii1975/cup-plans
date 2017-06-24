@@ -1,0 +1,75 @@
+.container{
+display: flex;
+width: 1200px;
+height: 600px;
+background-color: #fdde7e;
+justify-content: space-around;
+align-items: center;
+}
+.box1,.box3{
+width: 360px;
+height: 440px;
+opacity:100%;
+background-color: #fff;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.box2{
+width:360px;
+height: 500px;
+opacity: 100%;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.box1__h1,.box2__h1,.box3__h1{
+padding-top:40px;
+font-size:70px;
+font-family:Miso,sans-serif;
+margin: 0;
+color:#009a5b;
+}
+.box1__smoke{
+padding-top: 23px;
+background-image: #ffbc7f;
+}
+.box1__cup{
+padding-top: 11px;
+background-image: #ff7a00;
+}
+.box2__smoke{
+padding-top: 23px
+background-image:#ffe591;
+}
+.box2__cup{
+padding-top: 11px;
+background-image: #ffcb24;
+}
+.box3__smoke{
+padding-top: 23px;
+background-image: #dedede;
+}
+.box3__cup{
+padding-top: 11px;
+background-image: #bebebe;
+
+}
+.box1__h2,.box2__h2,.box3__h2{
+padding-top: 30px;
+margin: 0;
+color: #333;
+font-family: Miso,sans-serif;
+font-size: 56px;
+font-weight: 400;
+}
+.box1__h3,.box2__h3,.box3__h3{
+padding-top: 20px;
+margin: 0;
+color: #333;
+font-family: Lato,sans-serif;
+font-size: 20px;
+font-weight: 300;
+text-align: center;
+}
